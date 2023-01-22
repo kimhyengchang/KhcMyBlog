@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          테스트용 <code>깃허브 연동</code> 테스트용
+          테스트용01-23 <code>깃허브 연동</code> 테스트용
         </p>
         <a
           className="App-link"
