@@ -4,20 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          테스트용01-23 <code>깃허브 연동</code> 테스트용
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learnasdasd
-        </a>
-      </header>
+      <h4>반갑습니다. 리엑트 연습화면 입니다 블로그를 만들고 실제로 사용할 예정입니다.</h4>
     </div>
   );
 }
