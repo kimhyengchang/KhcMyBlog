@@ -1,10 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useState } from "react";
 
 function App() {
   return (
     <div className="App">
-      <h4>반갑습니다. 리엑트 연습화면 입니다 블로그를 만들고 실제로 사용할 예정입니다.</h4>
+      <div className="black-nav">
+        <div className="header-logo">KHC Blog</div>
+        <nav className="top-nav">
+          <ul>
+            <li>글목록</li>
+            <li>글쓰기</li>
+            <li>로그인</li>
+          </ul>
+        </nav>
+      </div>
     </div>
   );
 }
