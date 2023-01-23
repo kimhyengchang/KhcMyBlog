@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,8 +36,8 @@
 
 .black-nav{
   justify-content: space-between;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   display: flex;
   width: 100%;
   font-size: 20px;
@@ -55,7 +51,7 @@
   padding: 20px;
 }
 
-ul {
+.top-toolbar {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -63,7 +59,7 @@ ul {
   justify-content: flex-end;
 }
 
-li {
+.top-menu {
   flex-basis: 25%;
   font-size: 14px;
 }

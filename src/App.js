@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from "react";
+import Sidebar from './components/sidebar/Sidebar'
 
 function App() {
   return (
@@ -8,14 +9,17 @@ function App() {
       <div className="black-nav">
         <div className="header-logo">KHC Blog</div>
         <nav className="top-nav">
-          <ul>
-            <li>글목록</li>
-            <li>글쓰기</li>
-            <li>로그인</li>
-            ㅇ
+          <ul className="top-toolbar">
+            <li className='top-menu'>홈</li>
+            <li className='top-menu'>글쓰기</li>
+            <li className='top-menu'>로그인</li>
           </ul>
         </nav>
       </div>
+      <div className="container">
+        <Sidebar />
+        <div className="others">other pages</div>
+        </div>
     </div>
   );
 }
