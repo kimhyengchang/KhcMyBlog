@@ -12,6 +12,7 @@ function App() {
             <li>글목록</li>
             <li>글쓰기</li>
             <li>로그인</li>
+            ㅇ
           </ul>
         </nav>
       </div>
