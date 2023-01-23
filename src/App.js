@@ -2,25 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState } from "react";
 import Sidebar from './components/sidebar/Sidebar'
-
+import Topbar from './components/topbar/Topbar';
 function App() {
   return (
-    <div className="App">
-      <div className="black-nav">
-        <div className="header-logo">KHC Blog</div>
-        <nav className="top-nav">
-          <ul className="top-toolbar">
-            <li className='top-menu'>홈</li>
-            <li className='top-menu'>글쓰기</li>
-            <li className='top-menu'>로그인</li>
-          </ul>
-        </nav>
+      <div className='App'>
+        <Topbar/>
+          <div className="container">
+            <Sidebar />
+            <div className="others">other pages</div>
+          </div>
       </div>
-      <div className="container">
-        <Sidebar />
-        <div className="others">other pages</div>
-        </div>
-    </div>
   );
 }
 
