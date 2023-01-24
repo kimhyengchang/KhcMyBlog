@@ -1,4 +1,5 @@
 .home{
-    flex: 8;
-    background: orange;
+    flex: 4;
+    background: white;
+    margin-top: 20px;
 }
