@@ -3,3 +3,7 @@
     background: white;
     margin-top: 20px;
 }
+
+.homeWidgets{
+    display: flex;
+}

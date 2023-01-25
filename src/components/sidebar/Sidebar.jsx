@@ -24,21 +24,19 @@ export default function sidebar(){
           <h3 className="sidebarTitle">이모저모</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              대전 이야기
+              이야기
             </li>
-            <li className="sidebarListItem">
-              전주 이야기
-            </li>
+          
           </ul>
         </div>
       </div>
 
       <div className="sidebarWrapper">
         <div className="sidebarMenu">
-          <h3 className="sidebarTitle">메일</h3>
+          <h3 className="sidebarTitle">기타</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              메일 보내기
+              메일
             </li>
             <li className="sidebarListItem">
               방명록

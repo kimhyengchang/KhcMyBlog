@@ -1,0 +1,43 @@
+.main{
+    margin : 0 auto;
+    padding : 20px;
+    width: 40%;
+    border-radius: 10px;
+    flex: 1;
+    align-items: center;
+    
+}
+
+.mainTitle{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mainTitle:hover{
+    text-decoration: underline;
+}
+
+.mainContent{
+    margin-top: 20px;
+    display: inline-block;
+    width: 700px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: gray;
+    white-space: normal;
+    line-height: 1.2;
+    height: 3.6em;
+    text-align: left;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.mainTime{
+    font-size: 14px;
+    font-weight: 600;
+    color:gray
+}

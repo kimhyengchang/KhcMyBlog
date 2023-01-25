@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Sidebar from './components/sidebar/Sidebar'
 import Topbar from './components/topbar/Topbar';
 import Home from './pages/home/Home'
+import Main from './components/main/Main'
 function App() {
   return (
       <div className='App'>
